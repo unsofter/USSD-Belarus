@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <ussds>
+      <USSD code="*100#" info="для информации о балансе лицевого счета и количестве бонусов" type="2" shablon="%ussd%" />
+      <USSD code="*100*код карты#" info="для пополнения лицевого счета с помощью скретч-карты" type="32" shablon="*100*%number%#" />
+      <USSD code="*105#" info="информация об остатках трафика и подключение пакетов" type="2" shablon="%ussd%" />
+      <USSD code="*110#" info="подключение/отключение тарифных планов, опций и услуг" type="2" shablon="%ussd%" />
+      <USSD code="*115#" info="номер телефона и тарифный план" type="2" shablon="%ussd%" />
+      <USSD code="*120#" info="подключение/отключение дополнительных сервисов" type="2" shablon="%ussd%" /> 
+      <USSD code="*147#" info="узнать свой номер телефона" type="2" shablon="%ussd%" />
+      <USSD code="*200#" info="развлечения и полезные услуги" type="2" shablon="%ussd%" />
+      <USSD code="*555#" info="для тарифов Вместе и Мультинет: информация о доступном трафике и управление группой" type="2" shablon="%ussd%" />
+      <USSD code="*777#" info="регистрация в клубе my life:)" type="2" shablon="%ussd%" />
+
+      <USSD code="*3333#" info="Подключить пакет минут. Безлимит звонков во ВСЕ сети (только для тарифных планов Шейк и Голос 2)" type="2" shablon="%ussd%" />
+      <USSD code="*8002#" info="Подключить пакет минут. 100 минут во ВСЕ сети на МЕСЯЦ" type="2" shablon="%ussd%" />
+      <USSD code="*8006#" info="Подключить пакет минут. 200 минут во ВСЕ сети на МЕСЯЦ" type="2" shablon="%ussd%" />
+
+      <USSD code="*8003#" info="Подключить пакет минут. 100 минут в ДРУГИЕ сети на МЕСЯЦ" type="2" shablon="%ussd%" />
+      <USSD code="*8007#" info="Подключить пакет минут. 200 минут в ДРУГИЕ сети на МЕСЯЦ" type="2" shablon="%ussd%" />
+
+      <USSD code="*8005#" info="Подключить пакет минут. 10 минут во ВСЕ сети на СУТКИ" type="2" shablon="%ussd%" />
+      <USSD code="*8004#" info="Подключить пакет минут. 10 минут в ДРУГИЕ сети на СУТКИ" type="2" shablon="%ussd%" />
+
+      <USSD code="*4400#" info="Подключить дополнительные сервисы. itv life :)" type="2" shablon="%ussd%" />
+      <USSD code="*5203#" info="Подключить дополнительные сервисы. KidsClub" type="2" shablon="%ussd%" />
+      <USSD code="*6464#" info="Подключить дополнительные сервисы. Веб-защита" type="2" shablon="%ussd%" />
+      <USSD code="*8010#" info="Подключить дополнительные сервисы. Шоколад" type="2" shablon="%ussd%" />
+      <USSD code="*8303#" info="Подключить дополнительные сервисы. Яндекс Гео" type="2" shablon="%ussd%" />
+      <USSD code="*8600#" info="Подключить дополнительные сервисы. Яндекс.Музыка Безлимит" type="2" shablon="%ussd%" />
+      <USSD code="*8700#" info="Подключить дополнительные сервисы. Журналы" type="2" shablon="%ussd%" />
+      <USSD code="*8887#" info="Подключить дополнительные сервисы. fizy" type="2" shablon="%ussd%" />  
+
+      <USSD code="*8100#" info="Подключить пакет интернета на МЕСЯЦ. 0,1 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8500#" info="Подключить пакет интернета на МЕСЯЦ. 0,5 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8036#" info="Подключить пакет интернета на МЕСЯЦ. 1 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8141#" info="Подключить пакет интернета на МЕСЯЦ. 2 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8117#" info="Подключить пакет интернета на МЕСЯЦ. 3 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8142#" info="Подключить пакет интернета на МЕСЯЦ. 4 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8145#" info="Подключить пакет интернета на МЕСЯЦ. 5 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8143#" info="Подключить пакет интернета на МЕСЯЦ. 8 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8110#" info="Подключить пакет интернета на МЕСЯЦ. 10 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8112#" info="Подключить пакет интернета на МЕСЯЦ. 12 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8116#" info="Подключить пакет интернета на МЕСЯЦ. 16 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8120#" info="Подключить пакет интернета на МЕСЯЦ. 20 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8130#" info="Подключить пакет интернета на МЕСЯЦ. 30 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8160#" info="Подключить пакет интернета на МЕСЯЦ. Накопление" type="2" shablon="%ussd%" />
+      <USSD code="*8888#" info="Подключить пакет интернета на МЕСЯЦ. Каждые 0,1 ГБ за 1,00 руб." type="2" shablon="%ussd%" />
+
+      <USSD code="*8251#" info="Подключить пакет интернета на СУТКИ. 0,25 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8151#" info="Подключить пакет интернета на СУТКИ. 2 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8301#" info="Подключить пакет интернета на СУТКИ. 3 ГБ" type="2" shablon="%ussd%" />
+
+      <USSD code="*8257#" info="Подключить пакет интернета на НЕДЕЛЮ. 0,25 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8157#" info="Подключить пакет интернета на НЕДЕЛЮ. 2 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8307#" info="Подключить пакет интернета на НЕДЕЛЮ. 3 ГБ" type="2" shablon="%ussd%" />
+
+      <USSD code="*8803#" info="Подключить пакет интернета со скидкой. #такдешевле 3 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8808#" info="Подключить пакет интернета со скидкой. #такдешевле 8 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8810#" info="Подключить пакет интернета со скидкой. #такдешевле 10 ГБ" type="2" shablon="%ussd%" />
+      <USSD code="*8850#" info="Подключить пакет интернета со скидкой. #такдешевле 50 ГБ" type="2" shablon="%ussd%" />
+
+      <USSD code="*8201#" info="Подключить SMS-пакет. SMS 100" type="2" shablon="%ussd%" />
+      <USSD code="*8205#" info="Подключить SMS-пакет. SMS 500" type="2" shablon="%ussd%" />
+      <USSD code="*8210#" info="Подключить SMS-пакет. SMS 1000" type="2" shablon="%ussd%" />
+      <USSD code="*8230#" info="Подключить SMS-пакет. SMS 30 на сутки" type="2" shablon="%ussd%" /> 
+
+      <USSD code="*8320#" info="Микс-пакеты. Всё в одном!" type="2" shablon="%ussd%" />
+      <USSD code="*8330#" info="Микс-пакеты. life:) PRO" type="2" shablon="%ussd%" />
+  
+      <USSD code="*8404#" info="Роуминг и международная связь. life:) Мировой" type="2" shablon="%ussd%" />
+      <USSD code="*8420#" info="Роуминг и международная связь. Роуминг Россия" type="2" shablon="%ussd%" />
+
+      <USSD code="*8405#" info="Интернет в роуминге. 50 МБ в роуминге" type="2" shablon="%ussd%" />
+      <USSD code="*8406#" info="Интернет в роуминге. 100 МБ в роуминге" type="2" shablon="%ussd%" />
+      <USSD code="*8407#" info="Интернет в роуминге. 250 МБ в роуминге" type="2" shablon="%ussd%" />
+      <USSD code="*8412#" info="Интернет в роуминге. 500 МБ в роуминге" type="2" shablon="%ussd%" />
+
+      <USSD code="*8408#" info="Звонки в роуминге. 20 минут в роуминге" type="2" shablon="%ussd%" />
+      <USSD code="*8409#" info="Звонки в роуминге. 50 минут в роуминге" type="2" shablon="%ussd%" />
+
+      <USSD code="*8410#" info="SMS в роуминге. 20 SMS в роуминге" type="2" shablon="%ussd%" />
+      <USSD code="*8411#" info="SMS в роуминге. 50 SMS в роуминге" type="2" shablon="%ussd%" />
+  </ussds>

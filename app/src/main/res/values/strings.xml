@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">USSD Беларусь</string>
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+    <string name="nav_header_title">USSD Беларусь</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+    <string name="change_number_title">Редактор USSD</string>
+    <string name="main_search">Поиск</string>
+
+    <string name="change_ussd">USSD: </string>
+    <string name="change_number">Сумма/Номер/Код:</string>
+    <string name="change_edit_number">Сумма/Номер/Код</string>
+    <string name="change_ostalos">Осталось: </string>
+
+    <string name="add_ussd">USSD код:</string>
+    <string name="add_edit_ussd">USSD код</string>
+    <string name="add_info">Описание:</string>
+    <string name="add_edit_info">Описание</string>
+
+    <string name="listviewmenu_image_call">Позвонить</string>
+    <string name="listviewmenu_image_share">Поделиться кодом</string>
+    <string name="listviewmenu_image_clipboard">Копировать код в буфер</string>
+    <string name="listviewmenu_image_mycodes">Добавить код в мои коды</string>
+
+    <string name="listviewmenu_call">набрать</string>
+    <string name="listviewmenu_share">поделиться</string>
+    <string name="listviewmenu_clipboard">в буфер</string>
+    <string name="listviewmenu_mycodes">в мои коды</string>
+
+    <string name="settings_calls">Осуществлять звонки из приложения</string>
+    <string name="settings_number">Использовать редактор USSD</string>
+
+    <string name="info_header">Информация для приложения взята из открытых источников.\n</string>
+    <string name="info_header_next">Условия использования USSD запросов:\n</string>
+    <string name="info_velcom"><a href="https://a1.by/ru/services/Прочие-услуги/ussd/p/USSD">A1</a></string>
+    <string name="info_mts"><a href="http://mts.by/help/selfservices/ussd/">МТС</a></string>
+    <string name="info_life"><a href="http://life.com.by/private/about/ussd">Life:)</a>\n</string>
+    <string name="info_7788"><a href="http://7788.by/ussd/">Такси 7788</a>\n</string>
+    <string name="info_belinvestbank"><a href="https://www.belinvestbank.by/individual/page/14">Белинвестбанк</a></string>
+    <string name="info_vtb"><a href="https://www.vtb-bank.by/chastnym-licam/bankovskie-kartochki/ussd-servisy">ВТБ</a></string>
+    <string name="info_belgazprombank"><a href="http://belgazprombank.by/personal_banking/plastikovie_karti/dopolnitel_nij_servis/sms_servis_informacija_o_dostupnoj_summe/">Белгазпромбанк</a></string>
+    <string name="info_priorbank"><a href="https://www.priorbank.by/fin-gramotnost/balans-kartocki">Приорбанк</a></string>
+    <string name="info_priormobile"><a href="http://priorbank.by/r/retail/ussdbank/">Приорбанк USSD-Банк Prior Mobile+</a></string>
+    <string name="info_bps"><a href="https://www.bps-sberbank.by/page/ussd-banking">БПС-Сбербанк</a></string>
+    <string name="info_belagroprom"><a href="https://www.belapb.by/rus/natural/distanc_obsl/ussd-banking/">Балагропромбанк</a>\n</string>
+    <string name="info_rating"><a href="market://details?id=by.unsofter.ussdbelarus">Оценить приложение</a></string>
+    <string name="info_unihelp"><a href="https://unihelp.by/sdelat-pozhertvovanie/pozhertvovat-dengi-cherez-sms-i-ussd">UNIHELP</a></string>
+    <string name="info_blago"><a href="https://naviny.by/new/20181114/1542206747-life-otkryl-ussd-nomera-dlya-blagotvoritelnoy-pomoshchi">Благотворительность</a></string>
+    <string name="info_adra"><a href="http://adra.by/ussd-zapros">АДРА</a></string>
+
+    <string name="info_fonddobro"><a href="https://добра.бел/">Фонд Добра</a>\n</string>
+
+    <string name="info_ideabank"><a href="https://www.ideabank.by/private-osoby/online-bank/ussd-bank/">IdeaBank USSD-Банк</a></string>
+    <string name="info_parking"><a href="https://www.parkouka.by/home/show/payment">USSD парковка</a></string>
+    <string name="info_minsktrans"><a href="http://www.minsktrans.by/ru/adm.html?id=4081">Информации о времени, оставшемся до прибытия общественного транспорта</a></string>
+
+    <string name="shablon_code">%ussd%</string>
+    <string name="shablon_phone9">%phone9%</string>
+    <string name="shablon_summa">%summa%</string>
+    <string name="shablon_number">%number%</string>
+    <string name="shablon_number4">%number4%</string>
+    <string name="shablon_number5">%number5%</string>
+    <string name="shablon_number14">%number14%</string>
+    <string name="title_activity_settings">Настройки</string>
+
+</resources>

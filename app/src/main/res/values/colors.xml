@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorVelcom">#F0DB00</color>
+    <color name="colorMTS">#E47693</color>
+    <color name="colorLife">#4b99c8</color>
+    <color name="colorOther">#0ede4d</color>
+    <color name="clorEditable">#996557</color>
+    <color name="colorBackground">#CCCCCC</color>
+</resources>

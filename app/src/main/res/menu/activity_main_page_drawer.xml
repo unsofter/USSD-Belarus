@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@mipmap/ic_menu_favorites"
+            android:title="Мои коды" />
+        <item
+            android:id="@+id/nav_life"
+            android:icon="@mipmap/ic_menu_life"
+            android:title="life:)" />
+        <item
+            android:id="@+id/nav_mts"
+            android:icon="@mipmap/ic_menu_mts"
+            android:title="МТС" />
+        <item
+            android:id="@+id/nav_velcom"
+            android:icon="@mipmap/ic_menu_velcom"
+            android:title="A1" />
+        <item
+            android:id="@+id/nav_velcomprivet"
+            android:icon="@mipmap/ic_menu_velcom"
+            android:title="A1 привет" />
+        <item
+            android:id="@+id/nav_velcomkorp"
+            android:icon="@mipmap/ic_menu_velcom"
+            android:title="A1 корпорация" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@mipmap/ic_menu_other"
+            android:title="прочие" />
+    </group>
+
+    <item android:title="Информация">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@mipmap/ic_menu_settings"
+                android:title="Настройки" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="О приложении" />
+        </menu>
+    </item>
+
+</menu>

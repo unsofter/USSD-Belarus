@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+    <ussds>
+      <USSD code="*100#" info="узнать баланс" type="2" shablon="%ussd%" />
+      <USSD code="*145#" info="получить информацию о пяти последних платных действий по номеру телефона" type="2" shablon="%ussd%" />
+      <USSD code="*111*10#" info="узнать свой номер телефона" type="2" shablon="%ussd%" />
+      <USSD code="*111*11#" info="узнать перечень подключенных услуг" type="2" shablon="%ussd%" />
+      <USSD code="*111*12#" info="узнать свой тариф" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*31#" info="ввести Обещанный платёж" type="2" shablon="%ussd%" />
+      <USSD code="*113*сумма#" info="ввести Обещанный платёж" type="32" shablon="*113*%summa%#" />
+      <USSD code="*111*32#" info="просмотреть зачисленные платежи" type="2" shablon="%ussd%" />
+      <USSD code="*111*33#" info="узнать начисления за текущий месяц" type="2" shablon="%ussd%" />
+      <USSD code="*113*0#" info="отменить Обещанный платёж" type="2" shablon="%ussd%" />
+      <USSD code="*114*сумма#" info="ввести Срочный кредит" type="32" shablon="*114*%summa%#" />
+      <USSD code="*114#" info="узнать максимально доступную сумму Срочного кредита" type="2" shablon="%ussd%" />
+      <USSD code="*115*код_карты_оплаты_(14_знаков)#" info="пополнить счёта картой оплаты" type="32" shablon="*115*%number14%#" />
+      <USSD code="*115*код_карты_оплаты_(14_знаков)*375YYXXXXXXX#" info="пополнить счёта др. номера МТС картой оплаты" type="33" shablon="*115*%number14%*375%phone9%#" />
+      <USSD code="*121#" info="меню Запроса на пополнение счёта" type="2" shablon="%ussd%" />
+      <USSD code="*121*375ХХХХХХХХХ#" info="отправить Запрос на пополнение счёта" type="31" shablon="*121*375%phone9%#" />
+      <USSD code="*150#" info="подключить Кредитный метод" type="2" shablon="%ussd%" />
+      <USSD code="*150*0#" info="отключить Кредитный метод" type="2" shablon="%ussd%" />
+      <USSD code="*150*1#" info="узнать доступность Кредитного метода" type="2" shablon="%ussd%" />
+      <USSD code="*363*375YYХХХХХХХ*сумма#" info="перевести деньги на другой номер МТС, Поделись балансом" type="33" shablon="*363*375%phone9%*%summa%#" />
+      <USSD code="*444#" info="узнать текущий объем использованного интернет-трафика" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*40#" info="меню управления интернет-услугами" type="2" shablon="%ussd%" />
+      <USSD code="*111*401#" info="подключить/отключить Передачу данных (интернет, MMS)" type="2" shablon="%ussd%" />
+      <USSD code="*844#" info="подключить Открытый интернет (для корпоративных клиентов)" type="2" shablon="%ussd%" />
+      <USSD code="*844#*0#" info="отключить Открытый интернет (для корпоративных клиентов)" type="2" shablon="%ussd%" />
+      <USSD code="*790#" info="подключить 3G Лайт" type="2" shablon="%ussd%" />
+      <USSD code="*790*0#" info="отключить 3G Лайт" type="2" shablon="%ussd%" />
+      <USSD code="*546#" info="подключить LTE 25" type="2" shablon="%ussd%" />
+      <USSD code="*546*0#" info="отключить LTE 25" type="2" shablon="%ussd%" />
+      <USSD code="*547#" info="подключить LTE 50" type="2" shablon="%ussd%" />
+      <USSD code="*547*0#" info="отключить LTE 50" type="2" shablon="%ussd%" />
+      <USSD code="*510#" info="подключить Безлимитный интернет с телефона" type="2" shablon="%ussd%" />
+      <USSD code="*510*0#" info="отключить Безлимитный интернет с телефона" type="2" shablon="%ussd%" />
+      <USSD code="*530#" info="подключить Безлимитный интернет с телефона, в сутки" type="2" shablon="%ussd%" />
+      <USSD code="*530*0#" info="отключить Безлимитный интернет с телефона, в сутки" type="2" shablon="%ussd%" />
+      <USSD code="*531#" info="подключить Инет 2" type="2" shablon="%ussd%" />
+      <USSD code="*531*0#" info="отключить Инет 2" type="2" shablon="%ussd%" />
+      <USSD code="*532#" info="подключить Инет 4" type="2" shablon="%ussd%" />
+      <USSD code="*532*0#" info="отключить Инет 4" type="2" shablon="%ussd%" />
+      <USSD code="*533#" info="подключить Инет 6" type="2" shablon="%ussd%" />
+      <USSD code="*533*0#" info="отключить Инет 6" type="2" shablon="%ussd%" />
+      <USSD code="*510#" info="подключить Интернет-браузинг на месяц" type="2" shablon="%ussd%" />
+      <USSD code="*510*0#" info="отключить Интернет-браузинг на месяц" type="2" shablon="%ussd%" />
+      <USSD code="*530#" info="подключить Интернет-браузинг на сутки" type="2" shablon="%ussd%" />
+      <USSD code="*530*0#" info="отключить Интернет-браузинг на сутки" type="2" shablon="%ussd%" />
+      <USSD code="*534#" info="подключить Интернет Mini" type="2" shablon="%ussd%" />
+      <USSD code="*534*0#" info="отключить Интернет Mini" type="2" shablon="%ussd%" />
+      <USSD code="*535#" info="подключить Интернет Midi" type="2" shablon="%ussd%" />
+      <USSD code="*535*0#" info="отключить Интернет Midi" type="2" shablon="%ussd%" />
+      <USSD code="*536#" info="подключить Интернет Maxi" type="2" shablon="%ussd%" />
+      <USSD code="*536*0#" info="отключить Интернет Maxi" type="2" shablon="%ussd%" />
+      <USSD code="*740#" info="подключить МиниБИТ" type="2" shablon="%ussd%" />
+      <USSD code="*740*0#" info="отключить МиниБИТ" type="2" shablon="%ussd%" />
+      <USSD code="*741#" info="подключить БИТ" type="2" shablon="%ussd%" />
+      <USSD code="*741*0#" info="отключить БИТ" type="2" shablon="%ussd%" />
+      <USSD code="*742#" info="подключить СуперБИТ" type="2" shablon="%ussd%" />
+      <USSD code="*742*0#" info="отключить СуперБИТ" type="2" shablon="%ussd%" />
+      <USSD code="*743#" info="подключить Безлимит VIP" type="2" shablon="%ussd%" />
+      <USSD code="*743*0#" info="отключить Безлимит VIP" type="2" shablon="%ussd%" />
+      <USSD code="*744#" info="подключить Пикник" type="2" shablon="%ussd%" />
+      <USSD code="*744*0#" info="отключить Пикник" type="2" shablon="%ussd%" />
+      <USSD code="*746#" info="подключить  Безлимит на сутки" type="2" shablon="%ussd%" />
+      <USSD code="*746*0#" info="отключить  Безлимит на сутки" type="2" shablon="%ussd%" />
+      <USSD code="*714#" info="подключить Турбокнопку на услугах МиниБит, Бит, СуперБит, БезлимитVIP, Пикник" type="2" shablon="%ussd%" />
+      <USSD code="*376#" info="подключить Антивирус" type="2" shablon="%ussd%" />
+      <USSD code="*376*0#" info="отключить Антивирус" type="2" shablon="%ussd%" />
+      <USSD code="*802#" info="подключить Статическое имя" type="2" shablon="%ussd%" />
+      <USSD code="*802*0#" info="отключить Статическое имя" type="2" shablon="%ussd%" />
+      <USSD code="*880#" info="подключить сервис «Родная мова»" type="2" shablon="%ussd%" />
+      <USSD code="*202#" info="подключить Мобильное Кино" type="2" shablon="%ussd%" />
+      <USSD code="*202*0#" info="отключить Мобильное Кино" type="2" shablon="%ussd%" />
+      <USSD code="*208#" info="подключить Домашнее Кино" type="2" shablon="%ussd%" />
+      <USSD code="*208*0#" info="отключить Домашнее Кино" type="2" shablon="%ussd%" />
+
+
+      <USSD code="*111*20#" info="подключить/отключить Международный доступ" type="2" shablon="%ussd%" />
+      <USSD code="*111*21#" info="подключить/отключить SMS-роуминг" type="2" shablon="%ussd%" />
+      <USSD code="*111*22#" info="подключить Роуминг" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*233#" info="подключить/отключить Получение SMS с сайта" type="2" shablon="%ussd%" />
+      <USSD code="*111*234#" info="подключить/отключить Получение SMS с email" type="2" shablon="%ussd%" />
+      <USSD code="*111*251#" info="подключить SMS-пакет 50" type="2" shablon="%ussd%" />
+      <USSD code="*111*252#" info="подключить SMS-пакет 100" type="2" shablon="%ussd%" />
+      <USSD code="*111*253#" info="подключить SMS-пакет 300" type="2" shablon="%ussd%" />
+      <USSD code="*111*254#" info="подключить SMS-пакет 500" type="2" shablon="%ussd%" />
+      <USSD code="*111*255#" info="подключить SMS-пакет 1000" type="2" shablon="%ussd%" />
+      <USSD code="*111*256#" info="подключить Доп SMS-пакет 50" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*55#" info="подключить/отключить SMS-Extra" type="2" shablon="%ussd%" />
+      <USSD code="*111*261#" info="подключить MMS-пакет 10" type="2" shablon="%ussd%" />
+      <USSD code="*111*262#" info="подключить MMS-пакет 25" type="2" shablon="%ussd%" />
+      <USSD code="*111*263#" info="подключить MMS-Драйв" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*231#" info="подключить/отключить Голосовую почту 1 класса" type="2" shablon="%ussd%" />
+      <USSD code="*111*232#" info="подключить/отключить Голосовую почту 2 класса" type="2" shablon="%ussd%" />
+      <USSD code="*111*235#" info="подключить/отключить Переадресацию вызова" type="2" shablon="%ussd%" />
+      <USSD code="*111*236#" info="подключить/отключить Антиопределитель номера (стоимость услуги - по тарифному плану)" type="2" shablon="%ussd%" />
+      <USSD code="*111*237#" info="подключить/отключить Определитель номера (стоимость услуги - по тарифному плану)" type="2" shablon="%ussd%" />
+      <USSD code="*111*238#" info="подключить/отключить Ожидание (удержание) вызова" type="2" shablon="%ussd%" />
+      <USSD code="*111*239#" info="подключить/отключить Конференц-связь" type="2" shablon="%ussd%" />
+      <USSD code="*111*240#" info="подключить/отключить Запрет вызова" type="2" shablon="%ussd%" />
+      <USSD code="*500*1#" info="подключить Живой баланс по USSD" type="2" shablon="%ussd%" />
+      <USSD code="*500*0#" info="отключить Живой баланс по USSD" type="2" shablon="%ussd%" />
+
+      <USSD code="*106*200#" info="подключить 200 минут во все сети - для тарифа «Корпорация»" type="2" shablon="%ussd%" />
+      <USSD code="*106*400#" info="подключить 400 минут во все сети - для тарифа «Корпорация»" type="2" shablon="%ussd%" />
+      <USSD code="*106*600#" info="подключить 600 минут во все сети - для тарифа «Корпорация» " type="2" shablon="%ussd%" />
+      <USSD code="*106*0#" info="отключить 200 минут во все сети, 400 минут во все сети или 600 минут во все сети - для тарифа «Корпорация»" type="2" shablon="%ussd%" />
+      <USSD code="*108#" info="подключить Мою компанию - для корпоративных тарифов" type="2" shablon="%ussd%" />
+      <USSD code="*108*0#" info="отключить Мою компанию - для корпоративных тарифов" type="2" shablon="%ussd%" />
+      <USSD code="*111*241#" info="подключить/отключить Мобильный офис" type="2" shablon="%ussd%" />
+      <USSD code="*111*242#" info="подключить/отключить Интернет-Помощник" type="2" shablon="%ussd%" />
+      <USSD code="*111*243#" info="подключить/отключить Ежемесячную детализацию" type="2" shablon="%ussd%" />
+      <USSD code="*111*244#" info="подключить/отключить Не спать! - для тарифов «Пуск», «Все свои»" type="2" shablon="%ussd%" />
+      <USSD code="*111*245#" info="подключить/отключить Хороших выходных! - для тарифов «Пуск», «Все свои»" type="2" shablon="%ussd%" />
+      <USSD code="*160#" info="подключить Срочный безлимит" type="2" shablon="%ussd%" />
+      <USSD code="*160*0#" info="отключить Срочный безлимит" type="2" shablon="%ussd%" />
+      <USSD code="*118*0#" info="знакомства МТС" type="2" shablon="%ussd%" />
+      <USSD code="*987*0#" info="отключить сервис «Будь в курсе»" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*14#" info="добавить, изменить, удалить Любимые номера (стоимость добавления, изменения, удаления Любимого номера отображается в меню)" type="2" shablon="%ussd%" />
+      <USSD code="*170#" info="Сменить тариф на «Onliner.by»" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*15#" info="установить Добровольную блокировку (стоимость установки добровольной блокировки отображается в меню)" type="2" shablon="%ussd%" />
+      <USSD code="*111*16#" info="отменить Добровольную блокировку" type="2" shablon="%ussd%" />
+      <USSD code="*111*17#" info="установить пароль к Интернет-Помощнику" type="2" shablon="%ussd%" />
+      <USSD code="*111*18#" info="меню настроек кодировки USSD-портала *111#" type="2" shablon="%ussd%" />
+      <USSD code="*111*000*1#" info="установить кодировку «кириллица» для USSD-портала *111#" type="2" shablon="%ussd%" />
+      <USSD code="*111*000*2#" info="установить кодировку «транслит» для USSD-портала *111#" type="2" shablon="%ussd%" />
+      <USSD code="*303#" info="заказать настройки WAP, интернета, MMS" type="2" shablon="%ussd%" />
+      <USSD code="**62*110110#" info="активировать Вам звонили" type="2" shablon="%ussd%" />
+      <USSD code="**62*321321#" info="установить переадресацию на Голосовую почту" type="2" shablon="%ussd%" />
+      <USSD code="*190*1*375YYХХХХХХХ#" info="активировать За мой счёт (375YYХХХХХХX - номер абонента на тарифе «Детский»)" type="31" shablon="*190*1*375%phone9%#" />
+
+      <USSD code="*110#" info="меню «Вам звонили» и «Есть связь!»" type="2" shablon="%ussd%" />
+      <USSD code="*120*375YYХХХХХХХ#" info="отправить запрос «Перезвони мне!»" type="31" shablon="*120*375%phone9%#" />
+      <USSD code="*300#" info="меню «ТОНИНГ»" type="2" shablon="%ussd%" />
+      <USSD code="*310#" info="подключить Безлимитный ТОНИНГ" type="2" shablon="%ussd%" />
+      <USSD code="*310*0#" info="отключить Безлимитный ТОНИНГ" type="2" shablon="%ussd%" />
+      <USSD code="*393#" info="подключить Музыкальный плеер" type="2" shablon="%ussd%" />
+      <USSD code="*393*0#" info="отключить Музыкальный плеер" type="2" shablon="%ussd%" />
+      <USSD code="*922#" info="подключить/отключить Персональный гудок" type="2" shablon="%ussd%" />
+
+      <USSD code="*111*1212#" info="оплатить услуги МТС с банковской карты «Приорбанк» ОАО" type="2" shablon="%ussd%" />
+      <USSD code="*111*1213#" info="оплатить услуги МТС с банковской карты ЗАО «Банк ВТБ» (Беларусь)" type="2" shablon="%ussd%" />
+      <USSD code="*111*1221#" info="оплатить услуг МТС электронными деньгами EasyPay (доступно для зарегистрированных пользователей электронных денег EasyPay. Доступно при отрицательном балансе)" type="2" shablon="%ussd%" />
+      <USSD code="*111*1222#" info="оплатить услуги МТС с банковской карты ОАО «БПС-Сбербанк»" type="2" shablon="%ussd%" />
+      <USSD code="*111*1239#" info="оплатить услуги МТС с банковской карты ОАО «Белинвестбанк»" type="2" shablon="%ussd%" />
+      <USSD code="*111*1250#" info="оплатить услуги МТС с банковской карты ОАО «Белагропромбанк»" type="2" shablon="%ussd%" />
+      <USSD code="*111*611#" info="оплатить услуги МТС с банковской карты ОАО «АСБ Беларусбанк» (доступно при отрицательном балансе)" type="2" shablon="%ussd%" />
+      <USSD code="*212#" info="USSD-Банк Prior Mobile+ (оплата различных услуг, в том числе услуг МТС с банковской карты «Приорбанк» ОАО. Регистрировать SMS-банкинг необязательно. Доступно только при положительном балансе)" type="2" shablon="%ussd%" />
+
+      <USSD code="*878#" info="подключить Царь горы" type="2" shablon="%ussd%" />
+      <USSD code="*878*0#" info="отключить Царь горы" type="2" shablon="%ussd%" />
+      <USSD code="*455#" info="подключить Папарацци" type="2" shablon="%ussd%" />
+      <USSD code="*455*0#" info="отключить Папарацци" type="2" shablon="%ussd%" />
+      <USSD code="*565#" info="подключить МТС Киоск" type="2" shablon="%ussd%" />
+      <USSD code="*565*0#" info="отключить МТС Киоск" type="2" shablon="%ussd%" />
+      <USSD code="*656#" info="подключить МТС Пресса" type="2" shablon="%ussd%" />
+      <USSD code="*656*2#" info="отключить МТС Пресса" type="2" shablon="%ussd%" />
+      <USSD code="*704#" info="подключить Мобильная библиотека МТС Премиум" type="2" shablon="%ussd%" />
+      <USSD code="*704*0#" info="отключить Мобильная библиотека МТС Премиум" type="2" shablon="%ussd%" />
+      <USSD code="*550#" info="подключить Портал по изучению английского языка с МТС «Engster»" type="2" shablon="%ussd%" />
+      <USSD code="*550*0#" info="отключить Портал по изучению английского языка с МТС «Engster»" type="2" shablon="%ussd%" />
+      <USSD code="*595#" info="подключить Приложение «Английский язык с МТС – Engster»" type="2" shablon="%ussd%" />
+      <USSD code="*595*0#" info="отключить Приложение «Английский язык с МТС – Engster»" type="2" shablon="%ussd%" />
+      <USSD code="*757#" info="подключить Уроки польского" type="2" shablon="%ussd%" />
+      <USSD code="*757*0#" info="отключить Уроки польского" type="2" shablon="%ussd%" /> 
+      <USSD code="*770#" info="подключить Уроки русского" type="2" shablon="%ussd%" />
+      <USSD code="*770*0#" info="отключить Уроки русского" type="2" shablon="%ussd%" />
+      <USSD code="*888#" info="подключить Родная мова" type="2" shablon="%ussd%" />
+      <USSD code="*888*0#" info="отключить Родная мова" type="2" shablon="%ussd%" />
+      <USSD code="*207#" info="подключить услугу ESET Mobile Security" type="2" shablon="%ussd%" />
+      <USSD code="*207*0#" info="отключить услугу ESET Mobile Security" type="2" shablon="%ussd%" />
+      <USSD code="*220#" info="подключить услугу МТС ТВ" type="2" shablon="%ussd%" />
+      <USSD code="*220*0#" info="отключить услугу МТС ТВ" type="2" shablon="%ussd%" />
+      <USSD code="*224#" info="подключить услугу Кино от ivi" type="2" shablon="%ussd%" />
+      <USSD code="*224*0#" info="отключить услугу Кино от ivi" type="2" shablon="%ussd%" />
+      <USSD code="*210#" info="подключить услгугу МТС Fitness Club" type="2" shablon="%ussd%" />
+      <USSD code="*560*5#" info="подключить услугу Мой 5 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*6#" info="подключить услугу Мой 6 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*7#" info="подключить услугу Мой 7 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*8#" info="подключить услугу Мой 8 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*9#" info="подключить услугу Мой 9 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*10#" info="подключить услугу Мой 10 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*11#" info="подключить услугу Мой 11 класс" type="2" shablon="%ussd%" />
+      <USSD code="*560*12#" info="подключить услугу Вся программа 5-11 класс" type="2" shablon="%ussd%" />
+      <USSD code="*702#" info="получить ссылку на загрузку приложения Мой МТС" type="2" shablon="%ussd%" />
+    </ussds>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/info_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="18sp"
+            android:text="@string/info_header" />
+        <TextView
+            android:id="@+id/info_header_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="18sp"
+            android:text="@string/info_header_next" />
+
+        <TextView
+            android:id="@+id/info_header_velcom"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_velcom" />
+        <TextView
+            android:id="@+id/info_header_mts"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_mts" />
+        <TextView
+            android:id="@+id/info_header_life"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_life" />
+
+        <TextView
+            android:id="@+id/info_header_parking"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_parking" />
+
+        <TextView
+            android:id="@+id/info_header_minsktrans"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_minsktrans" />
+
+        <TextView
+            android:id="@+id/info_header_7788"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_7788" />
+
+        <TextView
+            android:id="@+id/info_header_belinvestbank"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_belinvestbank" />
+        <TextView
+            android:id="@+id/info_header_vtb"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_vtb" />
+        <TextView
+            android:id="@+id/info_header_belgazprom"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_belgazprombank" />
+        <TextView
+            android:id="@+id/info_header_priorbank"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_priorbank" />
+        <TextView
+            android:id="@+id/info_header_priormobile"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_priormobile" />
+        <TextView
+            android:id="@+id/info_header_bps"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_bps" />
+
+        <TextView
+            android:id="@+id/info_header_ideabank"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_ideabank" />
+
+        <TextView
+            android:id="@+id/info_header_belagroprom"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_belagroprom" />
+
+        <TextView
+            android:id="@+id/info_header_blago"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_blago" />
+
+        <TextView
+            android:id="@+id/info_header_unihelp"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_unihelp" />
+
+        <TextView
+            android:id="@+id/info_header_adra"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_adra" />
+
+        <TextView
+            android:id="@+id/info_header_fonddobro"
+            style="@style/info_textview_style"
+            android:onClick="onClick"
+            android:text="@string/info_fonddobro" />
+
+        <TextView
+            android:id="@+id/info_header_rate"
+            style="@style/info_textview_style"
+            android:textAlignment="center"
+            android:onClick="onRateClick"
+            android:text="@string/info_rating" />
+
+    </LinearLayout>
+</ScrollView>
